@@ -1,0 +1,21 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@slidev/cli": "^51.8.0",
+    "playwright-chromium": "^1.52.0"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}

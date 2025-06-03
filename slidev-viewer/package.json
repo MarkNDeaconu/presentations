@@ -1,0 +1,33 @@
+{
+  "name": "slidev-viewer",
+  "displayName": "Slidev Viewer",
+  "description": "Displays slide decks in VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:slidevViewer.open"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "slidevViewer.open",
+        "title": "Open Slidev Viewer"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/vscode": "^1.60.0",
+    "typescript": "^5.0.0"
+  }
+}

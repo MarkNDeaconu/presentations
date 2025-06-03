@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "slidev",
+    "dev": "node scripts/dev.js",
+    "list": "node scripts/list.js",
+    "export": "node scripts/export.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +14,7 @@
   "description": "",
   "devDependencies": {
     "@slidev/cli": "^51.8.0",
+    "cross-env": "^7.0.3",
     "playwright-chromium": "^1.52.0"
   },
   "dependencies": {
